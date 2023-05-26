@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+header img {
+    width: 5rem;
+    margin-left: 2rem;
+    
+}
+
+.navigation {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 30rem;
+    font-size: 1.5rem;
+    margin-right: 4rem;
+
+}
+
+.container-1 {
+    height: 660px;
+    position: relative;
+    
+}
+
+.bg-vid {
+    width: 100%;
+    position: absolute;
+    
+}
+
+.sus-flag {
+    width: 10rem;
+    position: absolute;
+    left: 18rem;
+    top: 8rem;
+}
+
+.container-1 p {
+    color: white;
+    position: absolute;
+    
+}
+
+.c1-p1 {
+   
+    right: 4rem;
+    top: 12rem;
+    font-size: 3rem;
+    width: 40rem;
+    text-align: right;
+}
+
+.c1-p2 {
+    font-size: 1.3rem;
+    width: 10rem;
+    text-align: center;
+    left: 7rem;
+    top: 9rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    header img {
+        width: 4rem;
+        margin-left: 1rem;
+        
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .bg-vid {
+        height: 844px;
+        object-fit: cover;
+    }
+
+    .sus-flag {
+        width: 6rem;
+        position: absolute;
+        left: 3rem;
+        top: 9rem;
+    }
+
+    .container-1 p {
+        color: white;
+        position: absolute;
+        
+    }
+    .c1-p1 {
+        
+        right: 2rem;
+        top: 17rem;
+        font-size: 1.2rem;
+        width: 18rem;
+        text-align: right;
+    }
+    
+    .c1-p2 {
+        font-size: 1.3rem;
+        width: 10rem;
+        text-align: center;
+        left: 11rem;
+    }
+    
+}
